@@ -1,7 +1,9 @@
 # riprequest
 Similar to the Python request library, but for Reticulum
 
-Useage example:
+NOTE: This library blocks as it waits for a response, in order to keep it's use syncronous.
+
+Usage example:
 ```python
 from RIPRequest import RIPRequest
 
